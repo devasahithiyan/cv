@@ -1,69 +1,117 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Deva's Personal site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Deva Sahithiyan As - Portfolio</title>
 </head>
-<table>
-  <tr>
-    <td><img src="images/mypic.png" alt="This is my photo" width="130" height="130"> </td>
-    <td>
-      <h1> Name : Devasahithiyan
-        <br> Age : 19
-      </h1>
-    </td>
-  </tr>
-</table>
-<hr>
 
 <body>
-  <h3> About Myself : </h3>
-  <ul>
-    <li> Hey , I am Devasahithiyan, I am 19 years old, i am a passionate budding web devloper , i am currently pursuing my Mtech computer science in Sri krishna college of engineering and technology</li>
-  </ul>
+    <header>
+        <div class="container">
+            <img src="deva.jpg" alt="Deva Sahithiyan As" class="profile-image">
+            <h1 class="animate__animated animate__fadeIn">Deva Sahithiyan As</h1>
+            <p class="animate__animated animate__fadeIn">Web Developer</p>
+        </div>
+    </header>
 
-  <h3> My Educationn :</h3>
+    <section id="about">
+        <div class="container">
+            <h2 class="animate__animated animate__fadeIn">About Me</h2>
+            <p class="animate__animated animate__fadeIn">Hello, I'm Deva Sahithiyan As, a passionate and enthusiastic web developer currently pursuing my M.Tech in Computer Science and Engineering at Sri Krishna College of Engineering and Technology.</p>
 
-  <table>
-    <tr>
-      <td> <strong> School :</strong> </td>
-      <td> Nationl model matriculation higher secondary school </td>
+            <p class="animate__animated animate__fadeIn">During my academic journey, I have acquired strong problem-solving skills and a solid understanding of core programming languages. My internship experience at Ether Info Tech in Coimbatore during the summer of 2023 allowed me to apply my theoretical knowledge to real-world projects.</p>
 
-    </tr>
-    <tr>
-      <td> <strong> College :</strong></td>
-      <td> <a href="http://www.skcet.ac.in/"> Sri krishna college of engineering and technology</a></td>
-    </tr>
-  </table>
-  <hr>
+            <p class="animate__animated animate__fadeIn">I specialize in core Java and AWT for building robust applications. My experience extends to web development, where I have created interactive projects using JavaScript and jQuery. The projects in my portfolio, such as the Drum Kit and Hand Cricket Game, showcase my dedication to creating engaging and user-friendly experiences.</p>
 
-  <h3> My Skills :</h3>
+            <p class="animate__animated animate__fadeIn">My journey in the field of technology has fueled my curiosity to explore and adapt to emerging technologies. I am enthusiastic about learning new concepts, collaborating with like-minded individuals, and contributing to innovative projects that make a positive impact.</p>
+        </div>
+    </section>
 
-  <table>
-    <tr>
-      <td> Html and CSS :</td>
-      <td> &#11088; &#11088; &#11088;
-      </td> </tr>
-      <tr>
-         <td> Java :</td>
-         <td>  &#11088;  &#11088; </td>
-         </tr>
-         <tr>
-           <td> Javascript :</td>
-           <td>  &#11088; </td>
+    <section id="skills">
+        <div class="container">
+            <h2 class="animate__animated animate__fadeIn">Skills</h2>
+            <ul class="skill-list animate__animated animate__fadeIn">
+                <li>Java</li>
+                <li>AWT/Swing</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Responsive Design</li>
+                <li>Git</li>
+                <li>Problem Solving</li>
+            </ul>
+        </div>
+    </section>
 
+    <section id="projects">
+        <div class="container">
+            <h2 class="animate__animated animate__fadeIn">Projects</h2>
+            <div class="project-card animate__animated animate__fadeIn">
+                <h3>Drum Kit</h3>
+                <p>A web-based drum kit project where users can play virtual drums using their keyboard.</p>
+            </div>
 
-         </tr>
-         <tr>
-            <td> Python :</td>
-            <td>  &#11088;</td>
-         </tr>
-  </table>
+            <div class="project-card animate__animated animate__fadeIn">
+                <h3>Hand Cricket Game</h3>
+                <p>Developed a hand cricket game using JavaScript, providing an interactive gaming experience.</p>
+            </div>
+
+            <div class="project-card animate__animated animate__fadeIn">
+                <h3>Login and Registration Page</h3>
+                <p>Designed and implemented a login and registration page for user authentication.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2 class="animate__animated animate__fadeIn">Experience</h2>
+            <div class="timeline animate__animated animate__fadeIn">
+                <!-- Replace the placeholder content with your actual experience details -->
+                <div class="event">
+                    
+                    <div class="event-details">
+                        <h3>Ether Info Tech, Coimbatore</h3>
+                        <p>Internship - Web Development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="animate__animated animate__fadeIn">Contact Me</h2>
+            <p class="animate__animated animate__fadeIn">Email: deva@example.com</p>
+            <p class="animate__animated animate__fadeIn">GitHub: <a href="https://github.com/devasahithiyan" target="_blank">github.com/devasahithiyan</a></p>
+            <p class="animate__animated animate__fadeIn">LinkedIn: <a href="https://linkedin.com/in/devasahithiyan" target="_blank">linkedin.com/in/devasahithiyan</a></p>
+        </div>
+    </section>
+
+    <section id="cta">
+        <div class="container">
+            <h2 class="animate__animated animate__fadeIn">Let's Create Something Amazing Together!</h2>
+            <p class="animate__animated animate__fadeIn">Ready to turn your ideas into reality? I'm available for freelance projects and collaboration.</p>
+            <a href="#contact" class="btn animate__animated animate__fadeIn">Get in Touch</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p class="animate__animated animate__fadeIn">&copy; 2024 Deva Sahithiyan As. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
 </body>
-<hr>
-<footer>
-  <a href="contactme.html"> Click here to contact me</a>
-</footer>
 
 </html>
