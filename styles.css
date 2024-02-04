@@ -1,0 +1,170 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Update the font family */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: 700; /* Use the bold variant of Montserrat for the header */
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    color: #333;
+    font-weight: 700; /* Use the bold variant of Montserrat for section headings */
+}
+
+.project-card {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style for circular profile image */
+.profile-image {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow for a subtle effect */
+}
+
+/* Additional styles for Contact Me section */
+#contact {
+    background-color: #3498db;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Styling for contact links */
+#contact a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.2em;
+    display: inline-block;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact a:hover {
+    color: #ecf0f1;
+}
+
+/* ... (previous CSS code) ... */
+
+/* Styles for Skills section */
+#skills {
+    background-color: #ecf0f1;
+    padding: 50px 0;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-list li {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Styles for Experience section */
+#experience {
+    padding: 50px 0;
+}
+
+.timeline {
+    position: relative;
+}
+
+.event {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.date {
+    position: absolute;
+    left: -90px;
+    top: 0;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.event-details {
+    margin-left: 20px;
+}
+
+/* Styles for CTA section */
+#cta {
+    background-color: #3498db;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ecf0f1;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #333;
+    color: #fff;
+}
