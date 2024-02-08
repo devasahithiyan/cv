@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif; /* Update the font family */
+    font-family: 'Poppins', sans-serif; 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,7 +23,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 3em;
-    font-weight: 700; /* Use the bold variant of Montserrat for the header */
+    font-weight: 700;
 }
 
 header p {
@@ -37,7 +37,7 @@ section {
 
 h2 {
     color: #333;
-    font-weight: 700; /* Use the bold variant of Montserrat for section headings */
+    font-weight: 700;
 }
 
 .project-card {
@@ -60,18 +60,18 @@ footer {
     padding: 20px 0;
 }
 
-/* Style for circular profile image */
+
 .profile-image {
-    width: 150px; /* Adjust the size as needed */
+    width: 150px; 
     height: 150px;
     border-radius: 50%;
     display: block;
     margin: 0 auto;
-    object-fit: cover; /* Ensure the image covers the entire container */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow for a subtle effect */
+    object-fit: cover; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
 }
 
-/* Additional styles for Contact Me section */
+
 #contact {
     background-color: #3498db;
     color: #fff;
@@ -79,7 +79,7 @@ footer {
     text-align: center;
 }
 
-/* Styling for contact links */
+
 #contact a {
     color: #fff;
     text-decoration: none;
@@ -93,9 +93,7 @@ footer {
     color: #ecf0f1;
 }
 
-/* ... (previous CSS code) ... */
 
-/* Styles for Skills section */
 #skills {
     background-color: #ecf0f1;
     padding: 50px 0;
@@ -145,7 +143,7 @@ footer {
     margin-left: 20px;
 }
 
-/* Styles for CTA section */
+
 #cta {
     background-color: #3498db;
     color: #fff;
@@ -167,4 +165,21 @@ footer {
 .btn:hover {
     background-color: #333;
     color: #fff;
+}
+
+#cta .btn {
+    background-color: #27ae60; /* Update with your desired color */
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#cta .btn:hover {
+    background-color: #219d53; 
+    transform: scale(1.05);
 }
